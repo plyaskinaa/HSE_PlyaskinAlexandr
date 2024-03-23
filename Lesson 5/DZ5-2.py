@@ -21,7 +21,7 @@ def find_emails_in_messages(messages):
     return emails_dict
 
 
-with open('1000_efrsb_messages.json', 'r') as file:
+with open('10000_efrsb_messages.json', 'r') as file:
     messages = json.load(file)
 
 emails_dict = find_emails_in_messages(messages)
